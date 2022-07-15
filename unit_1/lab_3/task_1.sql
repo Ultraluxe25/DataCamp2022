@@ -1,5 +1,6 @@
 create tablespace tbs_lab datafile 'db_lab_002.dat' size 5M autoextend ON next 5M MAXSIZE 100M; 
 GRANT UNLIMITED TABLESPACE TO SNasekajlo;
+
 create table t
     (a int,
      b varchar2 (4000) default rpad ('*',4000,'*'),
@@ -20,4 +21,5 @@ commit;
 
 select a from t
 /
+
 drop table t;
