@@ -93,3 +93,6 @@ SELECT *
   WHERE emp.empno = iot_addresses.empno
   AND emp.empno   = 42; 
 
+DROP TABLE emp;
+DROP TABLE heap_addresses;
+DROP TABLE iot_addresses;
