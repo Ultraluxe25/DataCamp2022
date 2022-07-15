@@ -1,5 +1,5 @@
-create tablespace tbs_lab datafile 'db_lab_002.dat' size 5M autoextend ON next 5M MAXSIZE 100M; 
-GRANT UNLIMITED TABLESPACE TO SNasekajlo;
+create tablespace tbs_lab datafile 'db_lab_001.dat' size 5M autoextend ON next 5M MAXSIZE 100M; 
+GRANT UNLIMITED TABLESPACE TO AKapturov;
 
 create table t
     (a int,
